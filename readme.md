@@ -1,4 +1,5 @@
-# Cars App Repo
-Data files not included in repo  
-The "Prep" R file has code to prep the dataset for the app  
-App hosted at: https://datagus.shinyapps.io/cars_app/  
+### R Shiny App - Car Maker MPG Analysis
+ - Data files not included in repo  
+ - The 'shiny_etl.R'  file has code to load, join, clean and transform
+the dataset for the app  
+ - App currently hosted at: https://gusmairs.shinyapps.io/cars_app/  
