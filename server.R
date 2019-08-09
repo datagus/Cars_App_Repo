@@ -66,7 +66,7 @@ shinyServer(function(input, output) {
         print(g)
     })
 
-    conn <- file('descrip.txt', open='r')
+    conn <- file('lib/descrip.txt', open='r')
     lines <- readLines(conn)
     txt <- ''
     for (line in lines){
