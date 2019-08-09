@@ -66,7 +66,7 @@ shinyServer(function(input, output) {
         print(g)
     })
 
-    str1 <- '<b>Shiny App Instructions</b>'
+    str1 <- '<b>Shiny App Description</b>'
     str2 <- 'The plot shows car make efficiency using number of cars
              with MPG > 22 each year.'
     str3 <- 'The plot dots are shaded for years when the global price of
