@@ -1,0 +1,8 @@
+<b>Shiny App Description</b>
+The plot shows car make efficiency using number of cars with MPG > 22 each year.
+The plot dots are shaded for years when the global price of oil exceeded $50 per barrel.
+Use pull-down lists to choose another car maker.
+Type or click to alter the range of years, from 1984 through 2016.
+There are no input controls designed into the UI yet (e.g. years prior to 1984).
+The refresh button will clear up most errors.
+<a href='https://github.com/gusmairs/mpg-shiny-app.git'>GitHub Repo</a>
