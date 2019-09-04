@@ -5,7 +5,7 @@
 #
 packages <- c('ggplot2', 'shiny', 'dplyr', 'stringr')
 suppressMessages(invisible(
-    lapply(packages, library, character.only=TRUE, quietly=TRUE)
+    lapply(packages, library, character.only = TRUE, quietly = TRUE)
 ))
 
 # %% Read data files
@@ -16,8 +16,8 @@ cars <- read.csv(
 )
 oil_price <- read.csv(
     file.path(data_path, 'oil_prices.csv'),
-    header=FALSE,
-    col.names=c('year', 'pr', 'adj')
+    header = FALSE,
+    col.names = c('year', 'pr', 'adj')
 )
 makes <- sort(unique(cars$make))
 
