@@ -5,6 +5,6 @@ account: gusmairs
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1078089
-bundleId: 2305470
+bundleId: 2383165
 url: https://gusmairs.shinyapps.io/mpg-shiny-app/
-when: 1565386945.0543
+when: 1567565817.16476

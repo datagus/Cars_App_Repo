@@ -1,0 +1,5 @@
+To deploy as a shiny app:
+  - Obtain secret key at `shinyapps.io`
+  - In R: `rsconnect::setAccountInfo(..)` with copied secret key from shiny site
+  - In R: `library(shiny)` and `runApp()` to test on local `127.0.0.1:5000`
+  - In R: `library(rsconnect)` and 'deployApp()` to upload to `shinyapps.io`
